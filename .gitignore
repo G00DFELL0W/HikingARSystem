@@ -1,0 +1,67 @@
+# Python-specific
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+*.pyc
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Dependency management
+Pipfile.lock
+requirements.txt.lock
+
+# Logs and runtime files
+*.log
+*.log.*
+logs/
+
+# OS-generated files
+.DS_Store  # macOS
+Thumbs.db  # Windows
+
+# IDE/editor files
+.idea/  # PyCharm
+.vscode/  # Visual Studio Code
+*.sublime-project
+*.sublime-workspace
+
+# Testing and coverage
+htmlcov/
+.coverage
+coverage.xml
+*.cover
+.pytest_cache/
+
+# Sensitive data
+*.env  # Environment variables (e.g., API keys)
+secrets/
+credentials/
+
+# Build artifacts (if integrating AR tools)
+*.o
+*.so
+*.dll
+*.exe
+*.bin
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# Potential AR/media files (optional: uncomment if large files are local-only)
+# *.gif
+# *.png
+# *.jpg
+# *.mp4
+
+# Project-specific exclusions (adjust as needed)
+gps_data/  # If storing raw GPS logs locally
+cache/     # If implementing a local cache
