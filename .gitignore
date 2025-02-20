@@ -1,67 +1,43 @@
-# Python-specific
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
-*.egg-info/
-dist/
+
+# Distribution / packaging
 build/
+dist/
+*.egg-info/
 *.egg
-*.pyc
 
 # Virtual environments
 venv/
 env/
 .venv/
 
-# Dependency management
-Pipfile.lock
-requirements.txt.lock
+# Unit test / coverage reports
+htmlcov/
+.coverage
+.pytest_cache/
 
 # Logs and runtime files
 *.log
 *.log.*
 logs/
-
-# OS-generated files
-.DS_Store  # macOS
-Thumbs.db  # Windows
-
-# IDE/editor files
-.idea/  # PyCharm
-.vscode/  # Visual Studio Code
-*.sublime-project
-*.sublime-workspace
-
-# Testing and coverage
-htmlcov/
-.coverage
-coverage.xml
-*.cover
-.pytest_cache/
+gps_data/
 
 # Sensitive data
-*.env  # Environment variables (e.g., API keys)
+*.env
 secrets/
-credentials/
-
-# Build artifacts (if integrating AR tools)
-*.o
-*.so
-*.dll
-*.exe
-*.bin
 
 # Temporary files
 *.tmp
 *.bak
-*.swp
 
-# Potential AR/media files (optional: uncomment if large files are local-only)
+# IDE files
+.idea/
+.vscode/
+
+# Optional: Exclude large media files (uncomment if needed)
 # *.gif
 # *.png
 # *.jpg
-# *.mp4
-
-# Project-specific exclusions (adjust as needed)
-gps_data/  # If storing raw GPS logs locally
-cache/     # If implementing a local cache
